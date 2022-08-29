@@ -15,7 +15,38 @@
 <meta property="og:image:width" content="500"/>
 <meta property="og:image:height" content="215"/>
 <meta property="og:description" content=" Laptop old battery is a old battery side.Cash on delivery available all over Bangladesh (Conditions apply)"/>
-        <script>
+        
+        <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "101948959084895");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+        </script>
 
             window.__disableNativeFetch = false;
             window.__bl=window.__bl?window.__bl:{},window._blReport=function(e,t){__bl.session?__bl[e].apply(__bl,t):(__bl.pipe=__bl.pipe||[],__bl.pipe.push([e].concat(t)))},window.addEventListener("error",function(e){_blReport("error",[e.error,e])}),window.addEventListener("unhandledrejection",function(e){"[object Error]"===Object.prototype.toString.call(e.reason)&&_blReport("error",[e.reason])});
