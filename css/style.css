@@ -45,13 +45,6 @@ html {
     display: none;
 }
 
-/* .nav-items-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 70%;
-} */
-
 .nav-items {
     margin-left: auto;
     margin-right: auto;
@@ -114,7 +107,6 @@ html {
     left: 0;
     display: flex;
     justify-content: center;
-    /* transform: translateX(50%); */
 }
 
 .hero-section p {
@@ -427,7 +419,6 @@ html {
         text-align: center;
         margin-top: 15px;
         margin-bottom: 15px;
-        /* transform: translateX(-13px) */
     }
 
     .nav-items ul li {
@@ -446,7 +437,6 @@ html {
         justify-content: center;
         padding-bottom: 15px;
         transition: 0.5s;
-        /* display: none; */
     }
 
     .nav-btn {
