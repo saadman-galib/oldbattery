@@ -23,11 +23,11 @@
 }
 .nav-title {
     position: relative;
-    color: rgb(32, 28, 37); 
+    color: rgb(32, 28, 37);
 }
 
 .nav-title h2 {
-    font-size: 1.7em;    
+    font-size: 1.7em;
 }
 
 .nav-title p {
@@ -50,7 +50,7 @@
     list-style: none;
     font-size: 16px;
     cursor: pointer;
-    color: rgb(32, 28, 37); 
+    color: rgb(32, 28, 37);
 }
 
 .nav-items ul li:not(:last-child) {
@@ -319,13 +319,13 @@
 
 /* Responsive Design */
 @media (min-width: 1921px) {
-    body{
+    body {
         width: 100%;
     }
-     .container{
+    .container {
         width: 1920px;
-        margin-left: auto; 
-         margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
         overflow: hidden;
     }
 }
@@ -335,7 +335,7 @@
         width: 85%;
     }
 
-    .hero-section h4{
+    .hero-section h4 {
         font-size: 50px;
         top: -10px;
     }
@@ -350,5 +350,19 @@
 
     .product {
         width: 250px;
-        height: 250px;}
+        height: 250px;
+    }
+    .products-container h2 {
+        font-size: 35px;
+    }
+    .faq-section h2 {
+        font-size: 35px;
+    }
+    .accordion button{
+        font-size: 15px;
+    }
+    .credit-container{
+        font-size: 14px;
+    }
+
 }
