@@ -334,6 +334,10 @@ html {
     padding: 8px;
 }
 
+.up {
+    display: none;
+}
+
 /* Responsive Design */
 @media (min-width: 1921px) {
     body {
@@ -395,6 +399,10 @@ html {
 }
 
 @media (max-width: 1300px) {
+    body {
+        position: relative;
+    }
+
     .nav-container {
         width: 100%;
     }
@@ -452,6 +460,44 @@ html {
 
     .nav-btn i:hover {
         color: #424242;
+    }
+
+    .up {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-image: linear-gradient(
+            to right top,
+            #3465ad,
+            #257bc0,
+            #0f91d1,
+            #00a6df,
+            #12bceb
+        );
+        padding: 18px;
+        border-radius: 8px;
+        font-size: 25px;
+        color: #fff;
+        box-shadow: 0px 10px 17px -3px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+        
+    }
+    .up a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .up:hover {
+        background-image: linear-gradient(
+            to left bottom,
+            #3465ad,
+            #257bc0,
+            #0f91d1,
+            #00a6df,
+            #12bceb
+        );
+        box-shadow: 0px 10px 35px 9px rgba(0, 0, 0, 0.1);
     }
 }
 
