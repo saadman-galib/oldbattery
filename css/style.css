@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 100%;
     min-height: 100vh;
@@ -51,6 +55,16 @@
     font-size: 16px;
     cursor: pointer;
     color: rgb(32, 28, 37);
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    color: rgb(32, 28, 37);
+    transition: 0.7s;
+}
+
+.nav-items ul li a:hover{
+    text-decoration: underline;
 }
 
 .nav-items ul li:not(:last-child) {
@@ -379,8 +393,8 @@
 
 @media (max-width: 1024px) {
     .product {
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 280px;
     }
 
     .product::after {
@@ -401,5 +415,10 @@
     }
     .accordion-title p {
         width: 90%;
+    }
+
+    .product {
+        width: 250px;
+        height: 250px;
     }
 }
